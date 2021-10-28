@@ -1,0 +1,20 @@
+$gray: #222629;
+.viz {
+    width: 100%;
+    max-width: 3*10em;
+    background-color: $gray;
+    color: white;
+    border-radius: (0.1+0.15)*2em;
+    text-align: center;
+    padding: 2em;
+    .about {
+        margin-top: 4*0.5em;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8*0.25em;
+        div * {
+            margin-top: 0.5em;
+        }
+    }
+}
