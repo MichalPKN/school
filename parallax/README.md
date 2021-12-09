@@ -1,4 +1,4 @@
-# Parallax
+# Parallax efekt 
 
 ![image](https://user-images.githubusercontent.com/93346591/145462645-3bc4f11c-1ea4-4c0c-863b-89b847d56c7c.png)
 
