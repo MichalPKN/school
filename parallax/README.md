@@ -8,9 +8,10 @@ Verze udělaná po termínu odevzdání:
 
 ![image](https://user-images.githubusercontent.com/93346591/145683161-f9a0e99d-41b9-46eb-87e8-198e3e4fd2d7.png)
 
-
-
-
+  
+  
+  
+  
 
 původní udělaná před odevzdáním:
 
