@@ -3,15 +3,13 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    overflow-x: hidden;
 }
 
 .text {
     padding: 1em;
     background-color: rgb(255, 255, 255);
     margin: 1em auto;
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
     max-width: 40em;
 }
 
@@ -20,8 +18,36 @@ body {
     margin: 0 0;
     background-image: url("bread.jpg");
     background-size: cover;
-    /*background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;*/
     height: 100vh;
+}
+
+#chleb1 {
+    margin: 1em;
+    width: 100%;
+    max-width: 20em;
+}
+
+#chleb2,
+#chleb22 {
+    position: absolute;
+    margin-bottom: 2.2em;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    max-width: 15em;
+}
+
+#chleb2 {
+    left: 0px;
+}
+
+#chleb3 {
+    width: 100%;
+    max-width: 15em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -7.5em;
+    text-align: center;
+    transform: rotate(-30deg);
 }
