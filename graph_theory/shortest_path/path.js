@@ -64,6 +64,7 @@ function pathExists(start, end) {
         }
         visited.push(actual);
     }
+    //find the path through prev array
     let path = [end];
     let current = end;
     while (current != start) {
