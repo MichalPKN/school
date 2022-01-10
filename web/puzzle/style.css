@@ -1,0 +1,89 @@
+* {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+}
+
+.playground {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.piece {
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.05em;
+    width: 3em;
+    height: 3em;
+}
+
+#p1 {
+    background-image: url("image.jpg");
+    background-size: 9em;
+}
+
+#p2 {
+    background-image: url("image.jpg");
+    background-size: 9em;
+    background-position-x: center;
+}
+
+#p3 {
+    background-image: url("image.jpg");
+    background-size: 9em;
+    background-position-x: right;
+}
+
+#p4 {
+    background-image: url("image.jpg");
+    background-size: 9em;
+    background-position-y: center;
+}
+
+#p5 {
+    background-image: url("image.jpg");
+    background-size: 9em;
+    background-position: center;
+}
+
+#p6 {
+    background-image: url("image.jpg");
+    background-size: 9em;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+#p7 {
+    background-image: url("image.jpg");
+    background-size: 9em;
+    background-position-y: bottom;
+}
+
+#p8 {
+    background-image: url("image.jpg");
+    background-size: 9em;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+#p9 {
+    background-image: url("image.jpg");
+    background-size: 9em;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.empty {
+    background-image: none !important;
+    background-color: rgb(59, 59, 59);
+}
