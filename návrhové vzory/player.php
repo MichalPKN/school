@@ -3,7 +3,7 @@
 /**
  * Singleton player, only creatable using a method getInstance()
  *
- * @author  Michal Pokorný
+ * @author Michal Pokorný
  */
 class player{
 
@@ -12,13 +12,20 @@ class player{
     * @var Player if an instance of Player already exists
     */
     private static $instance;
+
     private $health;
 
+    /**
+     * constructor, sets health
+     */
     private function __construct($health = 5)
     {
         $this->setHealth($health);
     }
 
+    /**
+     * singleton function used for creating player
+     */
     public static function getInstance(){
         if (self::$instance === null){
             self::$instance = new player();
@@ -26,15 +33,24 @@ class player{
         return self::$instance;
     }
     
+    /**
+     * health setter
+     */
     public function setHealth($health){
         $this->health = $health;
         return $this;
     }
 
+    /**
+     * health getter 
+     */
     public function getHealth(){
         return $this->health;
     }
 
+    /**
+     * deals 1 damage to an enemy
+     */
     public function dealDamage(enemy $enemy){
         $enemy->setHealth($enemy->getHealth()-1);
     }
