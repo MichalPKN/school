@@ -23,7 +23,7 @@ $json = json_decode($result, true);
 $signature = base64_decode($json["signature"]);
 $data = $json["resultCode"] . "|" . $json["resultMessage"] . "|" . $json["dttm"];
 if (openssl_verify($data, $signature, $publicK)) {
-    echo "recieved data verified with signature";
+    echo "recieved data verified with public key";
 }else{
-    echo "could not verify recieved data with signature";
+    echo "could not verify recieved data with public key";
 };
